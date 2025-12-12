@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 2) Обучите модель(однократно):
 ```bash
-python train_model.py
+python leaning_model.py
 ```
 → Создаст файл smartphone_ranker.txt
 
@@ -43,7 +43,7 @@ streamlit run app.py
 
 ## Структура проекта
 ├── app.py                 # приложение<br>
-├── train_model.py         # Скрипт обучения модели<br>
+├── leaning_model.py         # Скрипт обучения модели<br>
 ├── smartphone_ranker.txt  # Обученная модель (создаётся автоматически)<br>
 └──requirements.txt        # Зависимости
 
